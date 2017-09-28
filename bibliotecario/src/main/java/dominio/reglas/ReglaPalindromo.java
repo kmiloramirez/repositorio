@@ -4,7 +4,7 @@ import dominio.excepcion.PrestamoException;
 
 public class ReglaPalindromo implements ReglasPrestamo {
 
-	public static final String EL_LIBRO_ES_PALINDROMO = "los libros palíndromos solo se pueden utilizar en la biblioteca";
+	public static final String EL_LIBRO_ES_PALINDROMO = "los libros palindromos solo se pueden utilizar en la biblioteca";
 
 	@Override
 	public boolean validar(String isbn) {
